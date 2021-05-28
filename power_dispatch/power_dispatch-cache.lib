@@ -640,6 +640,60 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# UTCoupe_BTS500251TADATMA2
+#
+DEF UTCoupe_BTS500251TADATMA2 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "UTCoupe_BTS500251TADATMA2" 950 200 50 H V L CNN
+F2 "UTCoupe:IPB180N03S4L01" 950 100 50 H I L CNN
+F3 "" 950 0 50 H I L CNN
+F4 "Power Switch ICs - Power Distribution HIC-PROFET" 950 -100 50 H I L CNN "Description"
+F5 "4.4" 950 -200 50 H I L CNN "Height"
+F6 "Infineon" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "BTS500251TADATMA2" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "726-BTS500251TADATM2" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BTS500251TADATMA2?qs=qSfuJ%252Bfl%2Fd7j1iFKHSBYAQ%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "BTS500251TADATMA2" 950 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bts500251tadatma2/infineon-technologies-ag" 950 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -600 200 -600 200 100 N
+X GND 1 0 0 200 R 50 50 0 0 P
+X IN 2 0 -100 200 R 50 50 0 0 P
+X IS 3 0 -200 200 R 50 50 0 0 P
+X VS 4 1100 0 200 L 50 50 0 0 P
+X OUT_1 5 0 -300 200 R 50 50 0 0 P
+X OUT_2 6 0 -400 200 R 50 50 0 0 P
+X OUT_3 7 0 -500 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# UTCoupe_SRBH-06H1A1G
+#
+DEF UTCoupe_SRBH-06H1A1G IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "UTCoupe_SRBH-06H1A1G" 1450 200 50 H V L CNN
+F2 "UTCoupe:SRBH06H1A1G" 1450 100 50 H I L CNN
+F3 "" 1450 0 50 H I L CNN
+F4 "Non-Isolated DC/DC Converters Non-Isolated DC-DC 6A" 1450 -100 50 H I L CNN "Description"
+F5 "8.13" 1450 -200 50 H I L CNN "Height"
+F6 "Bel Power Solutions" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SRBH-06H1A1G" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "784-SRBH-06H1A1G" 1450 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Bel-Power-Solutions/SRBH-06H1A1G/?qs=r5DSvlrkXmJtVXsUL38rBQ%3D%3D" 1450 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SRBH-06H1A1G" 1450 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/srbh-06h1a1g/bel-power-solutions" 1450 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1400 100 1400 -500 200 -500 200 100 N
+X REMOTE_ON/OFF 1 0 0 200 R 50 50 0 0 P
+X VIN 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X VOUT 4 0 -300 200 R 50 50 0 0 P
+X TRIM 5 0 -400 200 R 50 50 0 0 P
+X N/A_1 6 1600 -100 200 L 50 50 0 0 P
+X N/A_2 7 1600 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # power_+12P
 #
 DEF power_+12P #PWR 0 0 Y Y 1 F P
@@ -786,60 +840,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_dispatch-rescue_BTS500251TADATMA2-SamacSys_Parts-POWER_2-rescue-POWER_3-rescue
-#
-DEF power_dispatch-rescue_BTS500251TADATMA2-SamacSys_Parts-POWER_2-rescue-POWER_3-rescue IC 0 30 Y Y 1 F N
-F0 "IC" 950 300 50 H V L CNN
-F1 "power_dispatch-rescue_BTS500251TADATMA2-SamacSys_Parts-POWER_2-rescue-POWER_3-rescue" 950 200 50 H V L CNN
-F2 "IPB180N03S4L01" 950 100 50 H I L CNN
-F3 "https://www.infineon.com/dgdl/Infineon-BTS50025-1TAD-DS-v01_01-EN.pdf?fileId=5546d4625b62cd8a015baf36cff24613" 950 0 50 H I L CNN
-F4 "Power Switch ICs - Power Distribution HIC-PROFET" 950 -100 50 H I L CNN "Description"
-F5 "4.4" 950 -200 50 H I L CNN "Height"
-F6 "Infineon" 950 -300 50 H I L CNN "Manufacturer_Name"
-F7 "BTS500251TADATMA2" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "726-BTS500251TADATM2" 950 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BTS500251TADATMA2?qs=qSfuJ%252Bfl%2Fd7j1iFKHSBYAQ%3D%3D" 950 -600 50 H I L CNN "Mouser Price/Stock"
-F10 "BTS500251TADATMA2" 950 -700 50 H I L CNN "Arrow Part Number"
-F11 "https://www.arrow.com/en/products/bts500251tadatma2/infineon-technologies-ag" 950 -800 50 H I L CNN "Arrow Price/Stock"
-DRAW
-P 5 0 1 6 200 100 900 100 900 -600 200 -600 200 100 N
-X GND 1 0 0 200 R 50 50 0 0 P
-X IN 2 0 -100 200 R 50 50 0 0 P
-X IS 3 0 -200 200 R 50 50 0 0 P
-X VS 4 1100 0 200 L 50 50 0 0 P
-X OUT_1 5 0 -300 200 R 50 50 0 0 P
-X OUT_2 6 0 -400 200 R 50 50 0 0 P
-X OUT_3 7 0 -500 200 R 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
-# power_dispatch-rescue_SRBH-06H1A1G-SamacSys_Parts-POWER_2-rescue-POWER_3-rescue
-#
-DEF power_dispatch-rescue_SRBH-06H1A1G-SamacSys_Parts-POWER_2-rescue-POWER_3-rescue IC 0 30 Y Y 1 F N
-F0 "IC" 1450 300 50 H V L CNN
-F1 "power_dispatch-rescue_SRBH-06H1A1G-SamacSys_Parts-POWER_2-rescue-POWER_3-rescue" 1450 200 50 H V L CNN
-F2 "SRBH06H1A1G" 1450 100 50 H I L CNN
-F3 "https://www.mouser.com/datasheet/2/643/bel_02192018_SRBH-06H1A1_AA_Mar-23-2017-1500367.pdf" 1450 0 50 H I L CNN
-F4 "Non-Isolated DC/DC Converters Non-Isolated DC-DC 6A" 1450 -100 50 H I L CNN "Description"
-F5 "8.13" 1450 -200 50 H I L CNN "Height"
-F6 "Bel Power Solutions" 1450 -300 50 H I L CNN "Manufacturer_Name"
-F7 "SRBH-06H1A1G" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "784-SRBH-06H1A1G" 1450 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/Bel-Power-Solutions/SRBH-06H1A1G/?qs=r5DSvlrkXmJtVXsUL38rBQ%3D%3D" 1450 -600 50 H I L CNN "Mouser Price/Stock"
-F10 "SRBH-06H1A1G" 1450 -700 50 H I L CNN "Arrow Part Number"
-F11 "https://www.arrow.com/en/products/srbh-06h1a1g/bel-power-solutions" 1450 -800 50 H I L CNN "Arrow Price/Stock"
-DRAW
-P 5 0 1 6 200 100 1400 100 1400 -500 200 -500 200 100 N
-X REMOTE_ON/OFF 1 0 0 200 R 50 50 0 0 P
-X VIN 2 0 -100 200 R 50 50 0 0 P
-X GND 3 0 -200 200 R 50 50 0 0 P
-X VOUT 4 0 -300 200 R 50 50 0 0 P
-X TRIM 5 0 -400 200 R 50 50 0 0 P
-X N/A_1 6 1600 -100 200 L 50 50 0 0 P
-X N/A_2 7 1600 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
