@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BTS500251TADATMA2
+D Power Switch ICs - Power Distribution HIC-PROFET
+F https://www.infineon.com/dgdl/Infineon-BTS50025-1TAD-DS-v01_01-EN.pdf?fileId=5546d4625b62cd8a015baf36cff24613
+$ENDCMP
+#
 $CMP L6235D
 D L6235D, Motor Driver, 3-Phase Brushless DC Motor, 12 to 52V, 24-Pin SOIC
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00002347.pdf
@@ -8,6 +13,11 @@ $ENDCMP
 $CMP L6235PD
 D DMOS driver for 3 phase dc motor,L6235PD L6235PD, Motor Driver, 3-Phase Brushless DC Motor, 100 (Maximum)kHz 12  52 V, 36, 38-Pin PowerSO
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00002347.pdf
+$ENDCMP
+#
+$CMP SRBH-06H1A1G
+D Non-Isolated DC/DC Converters Non-Isolated DC-DC 6A
+F https://www.mouser.com/datasheet/2/643/bel_02192018_SRBH-06H1A1_AA_Mar-23-2017-1500367.pdf
 $ENDCMP
 #
 #End Doc Library
