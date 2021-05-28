@@ -15,6 +15,11 @@ D DMOS driver for 3 phase dc motor,L6235PD L6235PD, Motor Driver, 3-Phase Brushl
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00002347.pdf
 $ENDCMP
 #
+$CMP PCA9535PW,118
+D 16-bit I2C-bus and SMBus, low power I/O port with interrupt
+F http://www.nxp.com/docs/en/data-sheet/PCA9535_PCA9535C.pdf
+$ENDCMP
+#
 $CMP SRBH-06H1A1G
 D Non-Isolated DC/DC Converters Non-Isolated DC-DC 6A
 F https://www.mouser.com/datasheet/2/643/bel_02192018_SRBH-06H1A1_AA_Mar-23-2017-1500367.pdf
