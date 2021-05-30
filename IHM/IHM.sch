@@ -636,4 +636,26 @@ Text Label 3700 3150 0    50   ~ 0
 D0
 Text Label 3700 3450 0    50   ~ 0
 D3
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60CCDBFA
+P 8700 6000
+F 0 "H5" H 8800 6046 50  0000 L CNN
+F 1 "MountingHole" H 8800 5955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 8700 6000 50  0001 C CNN
+F 3 "~" H 8700 6000 50  0001 C CNN
+	1    8700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 60CCDC00
+P 8700 6250
+F 0 "H6" H 8800 6296 50  0000 L CNN
+F 1 "MountingHole" H 8800 6205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 8700 6250 50  0001 C CNN
+F 3 "~" H 8700 6250 50  0001 C CNN
+	1    8700 6250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
