@@ -5,6 +5,11 @@ D Power Switch ICs - Power Distribution HIC-PROFET
 F https://www.infineon.com/dgdl/Infineon-BTS50025-1TAD-DS-v01_01-EN.pdf?fileId=5546d4625b62cd8a015baf36cff24613
 $ENDCMP
 #
+$CMP Breakout_TMC2130
+D Breakout Board, Stepper Driver TMC2130
+K Breakout Board Stepper Driver TMC2130
+$ENDCMP
+#
 $CMP L6235D
 D L6235D, Motor Driver, 3-Phase Brushless DC Motor, 12 to 52V, 24-Pin SOIC
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00002347.pdf
